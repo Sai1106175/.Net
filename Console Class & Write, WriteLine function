@@ -1,0 +1,24 @@
+Console.WriteLine("Hello Sai"); // String type data type Which we use double quotes.
+Console.WriteLine('S'); // Character data type represents as Char and used in single quotes
+Console.WriteLine(123); // Integer is the Datatype is used for Numeric values and requires no quotes.
+
+// Incase if we wanted to print any decimal values we can use float type data type.
+// Again float is divided into three types depending on degree of precision 
+// float         ~6-9 digits
+//double        ~15-17 digits
+//decimal        28-29 digits
+
+
+
+Console.WriteLine("123");  // String
+Console.WriteLine(123);  // int
+
+Console.WriteLine("true"); // String
+Console.WriteLine(true); // Boolean
+
+
+//string for words, phrases, or any alphanumeric data for presentation, not calculation
+// char for a single alphanumeric character
+// int for a whole number
+// decimal for a number with a fractional component - Float, Decimal, double.
+// bool for a true/false value
