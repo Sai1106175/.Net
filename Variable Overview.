@@ -24,9 +24,12 @@ Console.WriteLine(firstName);
 firstName = "Liem";
 Console.WriteLine(firstName);
 firstName = "Isabella";
-Console.WriteLine(firstName);
-firstName = "Yasmin";
-Console.WriteLine(firstName);
+Console.WriteLine(firstName); 
+firstName = "Yasmin"; // Here we are reusing the same memory for multiple times.
+Console.WriteLine(firstName); // Here we are printing the same variable after reusing that.
 
 Output
-Yasmin.
+Bob
+Liem
+Isabella
+Yasmin
