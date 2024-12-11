@@ -1,12 +1,11 @@
 // Variable -  Variable is a container for storing the data of different type of values. Variables are important because there values can be changed or ary through out the execution process.
+// How to save the name of the variable.
+// Can contain Alphanumeric
+// Must begin with Aplanumeric letters & Underscore
+// Variable names are case sensitive " The programming language treat the upper case letters & Lower Case letters as Different Variables."
 
-- How to save the name of the variable.
-  Can contain Alphnumeric
-  Must begin with Aplanumeric letters & Underscorce
-  Variable names are case sensitive " The programming language treat the upper case letters & Lower Case letters as Different Variables."
 
-
-Example programes.
+// Example programs.
 Program 1 
 String firstname;   //Here we are creating a variable that contain string value.
 firstname = "Saisharn"; // Then we will assign a value to the variable that we have created by using  Assignment operator.
@@ -17,4 +16,17 @@ Output
 
 Saisharn
 
+// We can reuse the variable for multiple times
 
+string firstName;
+firstName = "Bob";
+Console.WriteLine(firstName);
+firstName = "Liem";
+Console.WriteLine(firstName);
+firstName = "Isabella";
+Console.WriteLine(firstName);
+firstName = "Yasmin";
+Console.WriteLine(firstName);
+
+Output
+Yasmin.
