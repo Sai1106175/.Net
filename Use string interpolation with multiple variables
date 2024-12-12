@@ -1,0 +1,10 @@
+int bottleCost = 24;
+string bottleName = "Dhomes";
+char Wasbottlequalitychecked = 'Y';
+
+Console.WriteLine($"The Name of the is {bottleName} and cost of the bottle is{bottleCost} bottle quality check was done {Wasbottlequalitychecked}"); 
+
+output
+The Name of the is Dhomes and cost of the bottle is24 bottle quality check was done Y
+
+
