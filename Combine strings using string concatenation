@@ -1,0 +1,25 @@
+
+// By using var as a key word we can assgin different types of data types and Concatenate into a varaible and print it off.
+var candidateFristName = "Sharan";  
+var candidateemployeeid = 4823;
+var candidateLocationcode = 'H';
+
+var message = "Hello " + candidateFristName + "Your employee ID " + "is "+  candidateemployeeid +
+" and your area code " + candidateLocationcode;
+
+Console.WriteLine(message);
+
+Output
+Hello SharanYour employee ID is 4823 and your area code H
+
+
+//// By using different types of data types and Concatenate into a varaible and print it off.
+
+string firstName = "Bob";
+string message = "Hello " + firstName;
+Console.WriteLine(message);
+
+Output.
+Hello Bob
+
+
