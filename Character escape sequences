@@ -1,0 +1,54 @@
+
+An escape character sequence is an instruction to the runtime to insert a special character that will affect the output of your string
+list of character escape Sequences.
+
+Use character escape sequences when you need to insert a special character into a literal string, like a tab \t, new line \n, or a double quotation mark \".
+Use an escape character for the backslash \\ when you need to use a backslash in all other scenarios.
+Use the @ directive to create a verbatim string literal that keeps all whitespace formatting and backslash characters in a string.
+Use the \u plus a four-character code to represent Unicode characters in a string.
+Unicode characters may not print correctly depending on the application.
+
+
+Console.WriteLine("Hello \nworld");  \\  Backslash n is something that prints the preceding word to it in the next line in the output.
+Output.
+Hello
+World
+
+Console.WriteLine("Hello \tworld"); \\ Backslash t takes the double space after the preceding word.
+Hello  World
+
+Console.WriteLine("Hello "World""); \\ if in case if we are trying to use the double quotes to be printed then it throws the error.
+(3,27): error CS1003: Syntax error, ',' expected
+(3,32): error CS1003: Syntax error, ',' expected
+(3,27): error CS0103: The name 'World' does not exist in the current context
+
+Then we need to use \" to escape the sequence 
+
+
+Console.WriteLine("Hello \"World\"");
+Output.
+
+
+
+Console.WriteLine(@"    c:\source\repos             \\ It keeps all the whitespaces as it is. @ is called as Verbatim 
+(this is where your code goes)");
+
+Output.
+   c:\source\repos 
+(this is where your code goes)
+Hello "World"
+
+Console.WriteLine("c:\\source\\Sukanya"); \\ if you wanted to describe the path of some file. then \ is a key word that is been reserved.
+                                              we use escape sequence \\ which prints single backslash.
+Output.
+c:\source\Sukanya
+
+Console.WriteLine(@"sai sharan (1)                 
+                     Saisharan (20)
+                     saisharan9{200} ");
+
+Output.
+
+sai sharan (1)
+                     Saisharan (20)
+                     saisharan9{200} 
