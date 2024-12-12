@@ -1,0 +1,40 @@
+Example 1
+string dummyName = "Sharan";
+int ageofDname = 27; // Incase if there is an integer value which is concadinate with String or any other datatype it wont go with addtion of the numberics.
+int ageofAnothercandidate = 22; // Incase if there is an integer value which is concadinate with String or any other datatype it wont go with addtion of the numberics.
+char intialoftheDname = 'S';
+
+Console.WriteLine(dummyName + ageofAnothercandidate +   intialoftheDname);
+Output.
+Sharan22S
+
+
+Example 2
+int firstNumber = 5;
+int secondNumber = 10;
+
+Console.WriteLine(firstNumber + secondNumber); // in this case both the variables are interger., values so the would do addition.
+
+Output
+15
+
+
+Example 3
+var firstNumber = 6;
+var secondNumber = 3;
+
+Console.WriteLine(firstNumber + secondNumber);
+Console.WriteLine(firstNumber * secondNumber);
+Console.WriteLine(firstNumber / secondNumber);
+Console.WriteLine(firstNumber % secondNumber); // Its a reminder value.
+
+Output.
+9
+18
+2
+0
+
+
+
+
+
