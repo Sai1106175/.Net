@@ -1,0 +1,76 @@
++=  is an operator which  adds and assigns the value on the right of the operator to the value on the left of the operator. 
+So, lines two and three in the following code snippet are the same:
+
+int value = 0;
+value = value + 5;
+value += 5;
+
+Console.WriteLine(value);
+
+output.
+10
+
+Example 2
+int value = 1;
+
+value++;
+
+++value; // Ethier side of ++ would be the increment of the variable
+
+Console.WriteLine(value);
+
+
+Output.
+3
+
+
+Example 3
+
+
+int value =1 ;
+
+value = value +1;
+
+Console.WriteLine($"Value of Frist number: {value}");
+
+value ++;
+
+Console.WriteLine("Value of Second number: "+ value);
+
+
+value += 1;
+Console.WriteLine("Value of third number: "+ value); // left side value will be added to right side variable.
+
+value -= 1;
+Console.WriteLine("Value of forth number: "+ value); // left side value will be deducted to right side variable.
+
+
+
+value --;
+Console.WriteLine("Value of Fifth number: " + value); 
+
+Output
+Value of Frist number: 2
+Value of Second number: 3
+Value of third number: 4
+Value of forth number: 3
+Value of Fifth number: 2
+
+
+Example 4
+
+//Position the increment and decrement operators
+
+int value = 1;
+value++;
+Console.WriteLine("First: " + value);
+Console.WriteLine($"Second: {value++}");
+Console.WriteLine("Third: " + value);
+Console.WriteLine("Fourth: " + (++value));
+
+output
+First: 2
+Second: 2
+Third: 3
+Fourth: 4
+
