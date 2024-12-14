@@ -8,17 +8,23 @@ namespace Array
         
         
         {
-            String[] familyNames = new string[3];
-            familyNames[0] = "Sai";
-            familyNames[1] = "Sharan";
-            familyNames[2] = "varun";
-            // familyNames[3] = "Sangam";
+            string[] familynames = new string[3];
+            familynames[0] = "sai";
+            familynames[1] = "sharan";
+            familynames[2] = "varun";
+            //familynames[3] = "sangam";
 
-            Console.WriteLine($"Family First person: {familyNames[1]}");
+            Console.WriteLine($"family first person: {familynames[1]}");
 
-            familyNames[0] = "Shai";
+            familynames[0] = "shai";
 
-            Console.WriteLine($"Reassigned value of index 1:{familyNames[0]}");
+            Console.WriteLine($"reassigned value of index 1:{familynames[0]}");
+
+            Console.WriteLine($"Length of the Array: {familynames.Length}"); // using lenth property you can find the length of the array if the array index is unknown.
+
+
+
+
 
 
         }
