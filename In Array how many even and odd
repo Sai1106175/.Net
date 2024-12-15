@@ -1,0 +1,39 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Problem: Write a program that counts how many even and odd numbers are in an array using a foreach loop.
+            //Input: [12, 17, 19, 24, 28, 33]
+
+            int[] givenData = { 12, 17, 19, 24, 28, 33 };
+
+            int divisablenumber = 2;
+            int evenvalue = 0;
+            int oddvalue = 0;
+            foreach (int varable in givenData)
+            {
+                int modulation = varable % divisablenumber;
+
+                if (modulation == 0)
+                {
+                    evenvalue++;
+                }
+
+                else
+
+                    oddvalue++;
+
+
+                
+               
+
+            }
+            Console.WriteLine($"Even Number:{evenvalue} Odd Count: {oddvalue}");
+
+        }
+    }
+}
